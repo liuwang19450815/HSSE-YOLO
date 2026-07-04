@@ -1,0 +1,9 @@
+path: ../dataset/CCTSDB
+train: images/train  # 16356 images
+val: images/val      # 1500 images (官方 test set 用作 val)
+
+# Classes
+names:
+  0: mandatory
+  1: prohibitory
+  2: warning

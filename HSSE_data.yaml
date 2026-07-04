@@ -1,0 +1,17 @@
+path: ../dataset/HSSE # dataset root dir
+train: images/train # train images (relative to 'path') 3623 images
+val: images/val # val images (relative to 'path') 911 images
+test: images/val # test images (same as val)
+
+# Classes
+names:
+  0: signboard
+  1: framedoor
+  2: glassinterface
+  3: openentry
+  4: closedstore
+  5: pottedplant
+  6: sunshade
+  7: umbrella
+  8: decoration
+  9: banner
