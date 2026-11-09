@@ -1,0 +1,18 @@
+# Dataset files are intentionally excluded from this repository.
+# Put them under dataset/HSSE in the following YOLO layout:
+# dataset/HSSE/images/train, dataset/HSSE/images/val,
+# dataset/HSSE/labels/train, dataset/HSSE/labels/val
+path: dataset/HSSE
+train: images/train
+val: images/val
+names:
+  0: signboard
+  1: framedoor
+  2: glassinterface
+  3: openentry
+  4: closedstore
+  5: pottedplant
+  6: sunshade
+  7: umbrella
+  8: decoration
+  9: banner
